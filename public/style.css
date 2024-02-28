@@ -1,0 +1,47 @@
+/* style.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .app {
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  .search-container {
+    margin-bottom: 20px;
+  }
+  
+  .search-container input {
+    padding: 5px;
+    margin-right: 5px;
+  }
+  
+  .search-container button {
+    padding: 5px 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .repository-list ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .repository-list li {
+    margin-top: 10px;
+  }
+  
+  .repository-list a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .repository-list a:hover {
+    text-decoration: underline;
+  }
+  
